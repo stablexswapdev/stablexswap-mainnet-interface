@@ -7,12 +7,12 @@ import { injected, bsc, walletconnect } from '../connectors'
 
 // Updated with New Router PROXY Address
 // Testnet Router Address Active
-export const ROUTER_ADDRESS =  '0x69f124636c7f56c52474f69a893035adf9d29fe9'
+// export const ROUTER_ADDRESS =  '0x69f124636c7f56c52474f69a893035adf9d29fe9'
 
 // Router address Mainnet 0xCC6F313d29534B436A6D26eEe8EBcb1EC33BFa53
 
 // PROXY
-// export const ROUTER_ADDRESS = '0xC5A00c937c19cFd33063a9A389c506A0df7d2Fb3'
+export const ROUTER_ADDRESS = '0xC5A00c937c19cFd33063a9A389c506A0df7d2Fb3'
 
 // a list of tokens by chain
 type ChainTokenList = {
@@ -42,7 +42,7 @@ const WETH_ONLY: ChainTokenList = {
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [DAI, BUSD, USDT, USDC， QUSD]
+  [ChainId.MAINNET]: [DAI, BUSD, USDT, USDC, QUSD]
   //  [ChainId.BSCTESTNET]: [DAI, BUSD, USDT, USDC]
 }
 

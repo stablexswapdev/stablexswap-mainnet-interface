@@ -42,7 +42,7 @@ const WETH_ONLY: ChainTokenList = {
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [DAI, BUSD, USDT, USDC， QUSD],
+  [ChainId.MAINNET]: [DAI, BUSD, USDT, USDC， QUSD]
   //  [ChainId.BSCTESTNET]: [DAI, BUSD, USDT, USDC]
 }
 

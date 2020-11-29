@@ -67,7 +67,7 @@ export const SUGGESTED_BASES: ChainTokenList = {
 // used to construct the list of all pairs we consider by default in the frontend
 export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   ...WETH_ONLY,
-    [ChainId.MAINNET]: [DAI, BUSD, USDT, USDC，QUSD]
+    [ChainId.MAINNET]: [DAI, BUSD, USDT, USDC, QUSD]
   // [ChainId.BSCTESTNET]: [DAI, BUSD, USDT, USDC]
   
 }

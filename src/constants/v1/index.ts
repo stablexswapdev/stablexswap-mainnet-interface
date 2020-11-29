@@ -3,8 +3,9 @@ import { ChainId } from '@pancakeswap-libs/sdk'
 import V1_EXCHANGE_ABI from './v1_exchange.json'
 import V1_FACTORY_ABI from './v1_factory.json'
 
+
 const V1_FACTORY_ADDRESSES: { [chainId in ChainId]: string } = {
-  [ChainId.MAINNET]: '0xC5A00c937c19cFd33063a9A389c506A0df7d2Fb3', //TODO
+  [ChainId.MAINNET]: '0x5cb506ea9bc7da8863e78e8390001a7f79145d24', 
   [ChainId.BSCTESTNET]: '0x8f7346Ae7FAF96338153D3982c15f1D265353646'
 }
 
